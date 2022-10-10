@@ -25,11 +25,8 @@ using System.Text.RegularExpressions;
 namespace KuiperZone.Utility.Yaap
 {
     /// <summary>
-    /// Simple argument parser which accepts input either as a single string or string array. It holds arguments as
+    /// A simple argument parser which accepts input either as a single string or string array. It holds arguments as
     /// key-value pairs in a case insensitive dictionary. The class is immutable and, therefore, instance thread-safe.
-    /// Arguments keys are to be prefixed with '-' or "--", as shown by the following command line example:
-    /// APP value -size=100 -filename "Dir/Folder/File Name" --debug. Here, the flag "debug" flag will be interpreted
-    /// as the key-value pair: -debug=True.
     /// </summary>
     public class ArgumentParser
     {
