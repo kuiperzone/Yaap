@@ -1,0 +1,7 @@
+Version 1.0.1
+
+    o Build with GenerateDocumentationFile to ensure XML documentation in nuget
+
+Version 1.0.0
+
+    o Initial release
